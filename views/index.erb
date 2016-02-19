@@ -1,17 +1,30 @@
 <div class="row">
+  <div class="col-md-3">
+  </div>
+
   <div class="col-md-6">
     <div class="well">
-      <form action="/request">
-      <div class="form-group">
-        <label for="address">Street Address</label>  
-        <input type = "text" name="address">
-        <label for="city">City</label>
-        <input type = "text" name="city">
-      </div>
-    <div class="col-md-6">
-    </div>
+      <form action="post" target="/request">
 
-    <input type = "submit">
+        <div class="form-group">
+          <label for="address">Street Address</label>  
+          <input type = "text" class="form-control" name="address">
+        </div>
+
+        <div class="form-group"> 
+          <label for="city">City</label>
+          <input type = "text" class="form-control" name="city">
+        </div>
+
+        <div class="form-group"> 
+          <input type = "submit">
+        </div>
+                  
+      </form>
+    </div>
   </div>
+  
+  <div class="col-md-3">
   </div>
+
 </div>  
