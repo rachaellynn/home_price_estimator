@@ -7,7 +7,6 @@ require 'open-uri'
 
 #first just get things in and out of the zillow api
 # url = 'http://www.zillow.com/webservice/GetSearchResults.htm'
-# ID = 'X1-ZWz19un24nbeh7_4bx42'
 # property_address = '76 Roberts Road'
 # csz = '02155'
 # call_url = url + "?zws-id=" + ID + "&address=" + property_address + "&citystatezip=" + csz
